@@ -113,3 +113,25 @@ ul {
 .twitter-img:hover {
   box-shadow: 0rem 5px 15px rgba(0, 172, 238, 0.5);
 }
+
+@keyframes loading {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  animation: loading 25s linear infinite;
+}
+
+#UserImage {
+  transition: all ease 1s;
+}
+
+#UserImage:hover {
+  width: 11.5rem;
+  height: 13rem;
+}

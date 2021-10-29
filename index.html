@@ -18,7 +18,7 @@
       <div class="conteiner">
         <div class="avatar">
           <span>
-            <img src="images/selo.svg" alt="Selo" />
+            <img class="spinning" src="images/selo.svg" alt="Selo" />
           </span>
           <img
             id="UserImage"
@@ -75,5 +75,13 @@
       </div>
     </main>
     <script src="main.js"></script>
+     
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      VanillaTilt.init(document.querySelector("main"), {
+        max: 7,
+        speed: 300
+      });
+    </script>
   </body>
 </html>
