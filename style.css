@@ -134,4 +134,5 @@ ul {
 #UserImage:hover {
   width: 13.5rem;
   height: 15rem;
+  margin: auto -5rem 0;
 }
